@@ -1,0 +1,29 @@
+# Presentation files (kept locally, not in repo)
+*.pptx
+add_references_slide.py
+setup_repo.sh
+
+# Datasets / weights / artifacts
+*.pt
+*.tflite
+*.onnx
+*.zip
+runs/
+exports/
+captures/
+snapshots/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
